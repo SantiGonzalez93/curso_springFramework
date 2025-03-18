@@ -16,6 +16,6 @@ public class MvcConfig implements WebMvcConfigurer {
     private HandlerInterceptor timeInterceptor;
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-       registry.addInterceptor(timeInterceptor); //.addPathPatterns("/app/bar");
+       registry.addInterceptor(timeInterceptor);//.addPathPatterns("/app/bar");
     }
 }
